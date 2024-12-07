@@ -1,0 +1,25 @@
+Test file 1:
+Error: Failed to read file: test_files/test1.txt
+
+Caused by:
+    No such file or directory (os error 2)
+
+Test file 2:
+Error: Failed to read file: test_files/test2.txt
+
+Caused by:
+    No such file or directory (os error 2)
+
+Test file 3:
+Error: Failed to read file: test_files/test3.txt
+
+Caused by:
+    No such file or directory (os error 2)
+Test file 1:
+Generated CID: bafkreiajnvwwjzqn4zspfyoxakox74ilzzbuktchhehvpqx7vqgf6gwaha
+
+Test file 2:
+Generated CID: bafkreiajnvwwjzqn4zspfyoxakox74ilzzbuktchhehvpqx7vqgf6gwaha
+
+Test file 3:
+Generated CID: bafkreiaanvl2x6jlvsbvihtli4znxo223qzy76alr3yhqfir3tawxg353a

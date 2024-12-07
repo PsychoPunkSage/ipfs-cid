@@ -1,0 +1,5 @@
+Comparing identical files (test1.txt and test2.txt):
+Files have the same content (same CID)
+
+Comparing different files (test1.txt and test3.txt):
+Files have different content (different CIDs)
