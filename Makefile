@@ -21,9 +21,16 @@ setup:
 	@echo "$(GREEN)Setting up directories...$(NC)"
 	@mkdir -p $(LOG_DIR)
 	@mkdir -p $(TEST_DIR)
+	@echo "Creating test files..."
+	@touch $(TEST_DIR)/test1.txt
+	@touch $(TEST_DIR)/test2.txt
+	@touch $(TEST_DIR)/test3.txt
 	@echo "Hello IPFS!" > $(TEST_DIR)/test1.txt
 	@echo "Hello IPFS!" > $(TEST_DIR)/test2.txt
 	@echo "Different content" > $(TEST_DIR)/test3.txt
+	@chmod 644 $(TEST_DIR)/*
+	@echo "$(GREEN)Created test files:$(NC)"
+	@ls -l $(TEST_DIR)
 	@echo "$(GREEN)Setup complete!$(NC)"
 
 # Build the project
